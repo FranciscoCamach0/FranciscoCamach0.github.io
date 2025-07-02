@@ -1,7 +1,7 @@
 {
   "name": "folio",
   "version": "0.1.0",
-  "homepage": "https://franciscocamach0.github.io/",
+  "homepage": "https://franciscocamach0.github.io/folio",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
