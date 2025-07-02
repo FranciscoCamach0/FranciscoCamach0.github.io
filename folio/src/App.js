@@ -7,6 +7,7 @@ function App() {
   return (
     <Router>
     <div className="App">
+      <h1> HELOO THERE</h1>
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
