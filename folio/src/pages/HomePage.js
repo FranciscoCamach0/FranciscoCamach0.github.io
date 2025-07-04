@@ -1,7 +1,7 @@
 // src/pages/HomePage.js
 
 import React from 'react';
-import './css/background';
+import '../css/background';
 function HomePage() {
   return (
     <div>
