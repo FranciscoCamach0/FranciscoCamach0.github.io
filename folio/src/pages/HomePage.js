@@ -2,6 +2,8 @@
 
 import React from 'react';
 import '../css/background.css';
+import selfie from '../images/selfie.jpg';
+
 function HomePage() {
   return (
     <div>
@@ -14,7 +16,7 @@ function HomePage() {
             <p>Back-End / Front-End </p>
         </div>
 
-        <img src="../images/selfie.jpg" alt="picture of francisco"> </img>
+        <img src={selfie} alt="picture of francisco" />
 
         <div className = "updown">
           <h2> Coder </h2>
