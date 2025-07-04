@@ -7,6 +7,24 @@ function HomePage() {
     <div>
       <h1>Welcome to My Portfolio</h1>
       <p>This is the homepage of my React site deployed with GitHub Pages.</p>
+
+      <div className = "homePageDiv">
+        <div className = "updown">
+            <h2>Software Delevoper</h2>
+            <p>Back-End / Front-End </p>
+        </div>
+
+        <img src="selfie.jpg" alt="picture of francisoco"> </img>
+
+        <div className = "updown">
+          <h2> Coder </h2>
+          <p> Back-End / Front-End </p>
+        </div>
+
+
+        <p> </p>
+      </div>
+
     </div>
   );
 }
