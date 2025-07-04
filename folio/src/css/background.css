@@ -1,0 +1,13 @@
+div {
+    background: linear-gradient(to bottom, #000000, #222222);
+    align-items: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+h1 {
+    color: white;
+    text-align: center;
+}

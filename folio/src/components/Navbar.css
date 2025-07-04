@@ -17,10 +17,10 @@
   }
   
   .navbar a:hover {
-    color: #ff9800; /* Orange hover */
+    color: #ff9800;
   }
   
   .navbar a:last-child {
-    margin-right: 0; /* No margin for last link */
+    margin-right: 0; 
   }
   
