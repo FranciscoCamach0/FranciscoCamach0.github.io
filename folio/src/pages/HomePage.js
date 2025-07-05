@@ -16,7 +16,7 @@ function HomePage() {
             <p>Back-End / Front-End </p>
         </div>
 
-        <img src={selfie} alt="picture of francisco" />
+        <img className = "selfie" src={selfie} alt="picture of francisco" />
 
         <div className = "updown">
           <h2> Coder </h2>
