@@ -16,6 +16,11 @@ h2 {
     color:white;
     text-align:center;
 }
+h3{
+    color: white;
+    text-align: center;
+}
+
 
 body{
     background: linear-gradient(to bottom, #000000, #222222);
@@ -47,4 +52,39 @@ body{
     width: 200px;
     height: auto;
     margin: 0 auto;
+}
+               /* buttons */
+.contactButton{
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.contactButton a:hover {
+    color: blue;
+  }
+
+
+.links{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedinButton{
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.linkedinButton a:hover {
+    color: blue;
+}
+
+.linkedInlogo{
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10%;
 }
