@@ -4,46 +4,55 @@ import React from 'react';
 import '../css/background.css';
 import selfie from '../images/selfie.jpg';
 import linkedIn from '../images/linkedIn.jpg'
+import gitHub from '../images/gitHub.jpg'
 import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
-    <div>
+    <div className = "intro">
       <h1>Welcome to My Portfolio</h1>
-      <p> Hellp I'm </p>
-      <h2> Francisco Camacho </h2>
-      <h3> Software Engineer </h3>
 
-      <span> </span>
       <div className = "homePageDiv">
 
-        <div className = "updown">
+        <div className = "leftside">
+          <div className = "HomePageText"> 
 
-          <p className = "homepageText"> I’m a recent Computer Science graduate from California State University, Monterey Bay, with a concentration in Software Engineering. I first discovered my passion for coding in high school and have been hooked ever since. I went on to complete the CSin3 program, an accelerated pathway that allowed me to earn my Bachelor’s degree in just three years while developing strong skills in software design, development, and teamwork.</p>
-          <span></span>
+          <h4> Hello I'm </h4>
+          <h2 className = "name">
+            <span className="name-highlight">Francisco</span> Camacho
+          </h2>
+          <h3 className="my-title">Recent Computer Science Graduate</h3>
+          </div>
 
-          <button className = "contactButton"> Contact </button>
-          <div className = "links"> 
-            <a
-                className="linkedinButton"
-                href="https://www.linkedin.com/in/francisco-solis-a51a962b1/"
+            <p className = "homepageDescription"> I’m a recent Computer Science graduate from California State University, Monterey Bay, with a concentration in Software Engineering. I first discovered my passion for coding in high school and have been hooked ever since. I went on to complete the CSin3 program, an accelerated pathway that allowed me to earn my Bachelor’s degree in just three years while developing strong skills in software design, development, and teamwork.</p>
+           
+            <button className="download-resume-btn">Download Resume</button>
+            <button className = "contactButton"> Contact </button>
+            <div className = "links"> 
+              <a
+                  className="linkedinButton"
+                  href="https://www.linkedin.com/in/francisco-solis-a51a962b1/"
+                  target="_blank"
+                >
+                  <img className="linkedInlogo" src={linkedIn} alt="LinkedIn logo" />
+                </a>
+
+              <a
+                className="gitubButton"
+                href="https://github.com/FranciscoCamach0"
                 target="_blank"
               >
-                <img className="linkedInlogo" src={linkedIn} alt="LinkedIn logo" />
-              </a>`
-
-            <a
-              className="githubButton"
-              href="https://github.com/FranciscoCamach0"
-              target="_blank"
-            >
-              <img className="linkedInlogo" src={linkedIn} alt="GitHub logo" />
-            </a>
-
-          </div>
+                <img className="gitHublogo" src={gitHub} alt="GitHub logo" />
+              </a>
+            </div>
       
         </div>
-        <img className = "selfie" src={selfie} alt="picture of francisco" />
+       
+        <div className="selfie">
+          <div className="imageContainer">
+            <img className="profileImage" src={selfie} alt="Francisco Camacho" />
+          </div>
+        </div>
 
 
       </div>
