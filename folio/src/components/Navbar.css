@@ -24,3 +24,14 @@
     margin-right: 0; 
   }
   
+
+
+  .name{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    text-align: left;
+}
+.name-highlight {
+  color: #4817cf;
+}

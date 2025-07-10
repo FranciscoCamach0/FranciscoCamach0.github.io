@@ -1,44 +1,41 @@
 [
     {
-        "name":
-        "type":
-        "repo_link":
-        "project_link":
-        "description":
-        "languages": 
-        "tech": 
-        "images": 
-        "start"
-        "end": 
-        "status":
+        "name": "Otter Connect",
+        "type": "Backend/Frontend",
+        "repo_link": "https://github.com/Jorge-Mor/OtterConnect",
+        "description": "This project was meant to connect confused students with industry professionals to be their mentor and advise them on career paths or other options",
+        "languages": ["Python", "Node js", "CSS", "mySQL", "React"],
+        "tech": ["React"],
+        "images": ["selfie.jpg"],
+        "start": "Jan 1",
+        "end": "May 17",
+        "status": "Ended"
 
     },
     {
-        "name":
-        "type":
-        "repo_link":
-        "project_link":
-        "description":
-        "languages": 
-        "tech": 
-        "images": 
-        "start"
-        "end": 
-        "status":
+        "name": "Connect",
+        "type": "Backend/Frontend",
+        "repo_link": "https://github.com/Jorge-Mor/OtterConnect",
+        "description": "This project was meant to connect confused students with industry professionals to be their mentor and advise them on career paths or other options",
+        "languages": ["Python", "Node js", "CSS", "mySQL", "React"],
+        "tech": ["React"],
+        "images": ["selfie.jpg"],
+        "start": "Jan 1",
+        "end": "May 17",
+        "status": "Ended"
 
     },
     {
-        "name":
-        "type":
-        "repo_link":
-        "project_link":
-        "description":
-        "languages": 
-        "tech": 
-        "images": 
-        "start"
-        "end": 
-        "status":
+        "name": "Otter",
+        "type": "Backend/Frontend",
+        "repo_link": "https://github.com/Jorge-Mor/OtterConnect",
+        "description": "This project was meant to connect confused students with industry professionals to be their mentor and advise them on career paths or other options",
+        "languages": ["Python", "Node js", "CSS", "mySQL", "React"],
+        "tech": ["React"],
+        "images": ["selfie.jpg"],
+        "start": "Jan 1",
+        "end": "May 17",
+        "status": "Ended"
 
     }
 ]

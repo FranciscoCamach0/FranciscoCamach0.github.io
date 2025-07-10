@@ -162,8 +162,14 @@ body{
 
 .linkedinButton{
     color: white;
-    /* background-color: red; / */
-    /* border-radius: 4px; */
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: 0.3s;
 }
 
 .linkedinButton a:hover {
@@ -178,9 +184,15 @@ body{
     border-radius: 0;
 }
 .gitHubButton{
-    color: white;
-    /* background-color: red; */
-    border-radius: 4px;
+    /* color: white; */
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: 0.3s;
 }
 
 .gitHubButton a:hover {
@@ -205,3 +217,127 @@ body{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-size: 1rem;
   }
+
+
+
+
+
+  /* Projects Page */
+
+.card-text{
+    color: #000000;
+}
+
+.projects-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navigation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.nav-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.nav-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.project-counter {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.project-card {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.project-card p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.project-links {
+    margin: 20px 0;
+    display: flex;
+    gap: 15px;
+}
+
+.project-link {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.project-link:hover {
+    background-color: #218838;
+}
+
+.project-images {
+    margin-top: 20px;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dots-indicator {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.dot {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.dot.active {
+    color: #007bff;
+}
+
+.dot:hover {
+    color: #0056b3;
+}
