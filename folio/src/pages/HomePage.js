@@ -4,7 +4,7 @@ import React from 'react';
 import '../css/background.css';
 import selfie from '../images/selfie.jpg';
 import linkedIn from '../images/linkedIn.jpg'
-import gitHub from '../images/gitHub.jpg'
+import gitHub from '../images/gitHub.png'
 import { Link } from "react-router-dom";
 
 function HomePage() {
@@ -26,11 +26,18 @@ function HomePage() {
 
             <p className = "homepageDescription"> I’m a recent Computer Science graduate from California State University, Monterey Bay, with a concentration in Software Engineering. I first discovered my passion for coding in high school and have been hooked ever since. I went on to complete the CSin3 program, an accelerated pathway that allowed me to earn my Bachelor’s degree in just three years while developing strong skills in software design, development, and teamwork.</p>
            
-            <button className="download-resume-btn">Download Resume</button>
-            <button className = "contactButton"> Contact </button>
+            <button 
+                className="download-resume-btn"
+                onClick={() => window.open('/Resume.pdf', '_blank')}
+            >
+                View Resume
+            </button>
+            <Link to="/contact">
+                <button className="contactButton">Contact</button>
+            </Link>
             <div className = "links"> 
               <a
-                  className="linkedinButton"
+                  className="linkButton"
                   href="https://www.linkedin.com/in/francisco-solis-a51a962b1/"
                   target="_blank"
                 >
@@ -38,7 +45,7 @@ function HomePage() {
                 </a>
 
               <a
-                className="gitubButton"
+                className="linkButton"
                 href="https://github.com/FranciscoCamach0"
                 target="_blank"
               >
@@ -57,7 +64,7 @@ function HomePage() {
 
       </div>
       
-      <h1>About Me </h1>
+     
      
 
     </div>
@@ -68,18 +75,3 @@ export default HomePage;
 
 
 
-{/* <div className = "homePageDiv">
-        <div className = "updown">
-            <h2>Software Delevoper</h2>
-            <p>Back-End / Front-End </p>
-        </div>
-
-        <img className = "selfie" src={selfie} alt="picture of francisco" />
-
-        <div className = "updown">
-          <h2> Coder </h2>
-          <p> Back-End / Front-End </p>
-        </div>
-
-
-      </div> */}

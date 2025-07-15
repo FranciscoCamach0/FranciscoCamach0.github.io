@@ -4,7 +4,8 @@ import HomePage from './pages/HomePage';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact'
-import Navbar from './components/Navbar'; 
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';  
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path= "/about" element = {<About />} />
           <Route path = "/contact" element = {<Contact/>} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
