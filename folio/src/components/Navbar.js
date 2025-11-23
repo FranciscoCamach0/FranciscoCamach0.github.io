@@ -7,11 +7,14 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className = "name">
+        
+        <Link to = "/">
             <span className="name-highlight">Francisco</span> Camacho
+        </Link>
+           
       </div>
       <Link to="/">Home</Link>
       <Link to="/projects">Projects</Link>
-      <Link to="/about"></Link>
       <Link to="/contact">Contact</Link>
     </nav>
   );

@@ -1,11 +1,16 @@
 /* src/components/Navbar.css */
 
 .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 1rem 2rem;
+    align-items: right;
+    background-color: black;
+    padding: 1rem 1rem;
+    border-color: #4817cf;
+    border-radius: 5%;
   }
   
   .navbar a {

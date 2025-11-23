@@ -3,9 +3,10 @@
 import React from 'react';
 import '../css/background.css';
 import selfie from '../images/selfie.jpg';
-import linkedIn from '../images/linkedIn.jpg'
-import gitHub from '../images/gitHub.png'
+// import linkedIn from '../images/linkedIn.jpg'
+// import gitHub from '../images/gitHub.png'
 import { Link } from "react-router-dom";
+import { ImLinkedin, ImGithub } from "react-icons/im";
 
 function HomePage() {
   return (
@@ -28,20 +29,22 @@ function HomePage() {
            
             <button 
                 className="download-resume-btn"
-                onClick={() => window.open('/Resume.pdf', '_blank')}
+                onClick={() => window.open('/resume.pdf', '_blank')}
             >
                 View Resume
             </button>
             <Link to="/contact">
                 <button className="contactButton">Contact</button>
             </Link>
+
             <div className = "links"> 
               <a
                   className="linkButton"
                   href="https://www.linkedin.com/in/francisco-solis-a51a962b1/"
                   target="_blank"
                 >
-                  <img className="linkedInlogo" src={linkedIn} alt="LinkedIn logo" />
+              
+                  <ImLinkedin size="2em"/>
                 </a>
 
               <a
@@ -49,7 +52,9 @@ function HomePage() {
                 href="https://github.com/FranciscoCamach0"
                 target="_blank"
               >
-                <img className="gitHublogo" src={gitHub} alt="GitHub logo" />
+                {/* <img className="gitHublogo" src={gitHub} alt="GitHub logo" />
+                 */}
+                 <ImGithub size="2em"/>
               </a>
             </div>
       

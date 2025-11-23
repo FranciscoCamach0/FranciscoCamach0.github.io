@@ -204,9 +204,11 @@ body{
     width: 24px;
     height: 24px;
     border-radius: 0;
+    /* margin-right: 20px; */
 }
 
 .download-resume-btn {
+    /* 4817cf, 6839ea */
     background: linear-gradient(45deg, #4817cf, #6839ea);
     color: white;
     border: none;
@@ -216,6 +218,7 @@ body{
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-size: 1rem;
+    margin-right: 15px;
   }
 
 
@@ -232,6 +235,8 @@ body{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    /* background-color: gray ; */
+    border-radius: 5%;
 }
 
 .navigation-header {
@@ -269,7 +274,7 @@ body{
 }
 
 .project-card {
-    background: white;
+    background: gray;
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: black;
+  overscroll-behavior: none;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: black;
+  overscroll-behavior: none;
+}
