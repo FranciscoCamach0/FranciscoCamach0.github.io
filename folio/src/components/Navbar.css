@@ -1,0 +1,42 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    background-color: black;
+    padding: 1rem 1rem;
+    border-color: #4817cf;
+    border-radius: 5%;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #ff9800;
+  }
+  
+  .navbar a:last-child {
+    margin-right: 0; 
+  }
+  
+
+
+  .name{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    text-align: left;
+}
+.name-highlight {
+  color: #4817cf;
+}

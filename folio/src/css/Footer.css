@@ -1,0 +1,29 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1rem;
+  color: white;
+  
+}
+
+.footer h4 {
+    color: #8b5cf6;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer p {
+    color: #ccc;
+    font-size: 0.9rem;
+    margin: 0;
+}
